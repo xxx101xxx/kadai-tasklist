@@ -4,7 +4,7 @@
     <thead>
       <tr>
         <th>id</th>
-        <th>ステータス</th>
+        <th>ステータスｽ</th>
         <th>タスク</th>
       </tr>
     </thead>
@@ -21,9 +21,9 @@
   </tbody>
   </table>
   <div>
-　　<%= paginate @tasks %>
-　</div>
-<% end %>　
+  <%= paginate @tasks %>
+ </div>
+<% end %> 
 
 
 <%= link_to '新規タスク', new_task_path, class: "btn btn-primary"  %>
